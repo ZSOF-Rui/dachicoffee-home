@@ -1,0 +1,230 @@
+body {
+  font-family: "Times New Roman", Times, serif; font-size:12px; font-weight:normal
+}
+
+td {
+	font-family: "Times New Roman", Times, serif;
+}
+
+th {
+	font-family: "Times New Roman", Times, serif;
+}
+a{ color:#333333; text-decoration:none}
+a:link{ color:#333333; text-decoration:none}
+a:visited{ color:#333333; text-decoration:none}
+a:hover{ color:#FF9900; text-decoration: none }
+@media  screen and (min-width:601px){
+.index_left{
+    float: left;
+    width: 660px;
+}
+.index_right{
+    float: right;
+    width: 310px;
+}
+.banner{ margin-bottom:10px;}
+}
+@media screen and (max-width: 600px){
+.index_left{
+    width: 100%;
+}
+.index_right{
+    width: 100%;
+}
+}
+
+@media  screen and (min-width:601px){
+.jsbox {
+    width: 660px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+}
+.pic_box {
+    width: 660px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    margin-top: 20px;
+}
+
+.about {
+    width: 660px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    margin-top: 20px;
+}
+.lb_con {
+    width: 280px;
+    margin: 0 auto;
+    padding: 15px 15px;
+    background: #EBE7D7;
+}
+.lb_con img {
+    width: 280px;
+    height: 280px;
+}
+.lb_box {
+    width: 310px;
+}
+}
+@media screen and (max-width: 600px){
+.jsbox {
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+}
+.pic_box {
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    margin-top: 20px;
+}
+
+.about {
+
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    margin-top: 20px;
+}
+.lb_con {
+    margin: 0 auto;
+    padding: 0px 15px;
+    background: #EBE7D7;
+}
+.lb_con img {
+width:100%;
+    height: 288px;
+}
+.lb_box {
+width:100%;
+}
+}
+h3.i1 {
+    height: 30px;
+    padding-left: 20px;
+    background: #526B37;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 900;
+}
+span.s1 {
+    display: block;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    padding: 0px 6px;
+    background: #E7E2CE;
+    color: #323126;
+}
+.js_con {
+    padding: 20px 10px;
+    text-indent: 2em;
+    font-size: 12px;
+    background: #EBE7D7;
+    line-height: 180%;
+}
+
+
+
+h3.s3 {
+    height: 25px;
+    padding-left: 20px;
+    padding-top: 5px;
+    background: #F2F2F2;
+    font-size: 14px;
+    font-weight: 900;
+    border-bottom: 1px solid #023C7E;
+}
+span.s3 {
+    display: block;
+    width: 120px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    padding: 0px 6px;
+    background: #526B37;
+    color: #FFFFFF;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/*图片滚动*/
+@media  screen and (min-width:601px){
+#mrq{width:640px; margin:20px auto;border:1px solid #000; padding:2px}
+}
+@media screen and (max-width: 600px){
+#mrq{width:100%; margin:20px auto;border:1px solid #000; padding:2px}
+}
+#Marquee_x { overflow:hidden;} 
+#Marquee_x ul li ,#Marquee_x ul li div{ float:left;line-height:25px;overflow:hidden; white-space:nowrap} /* 横向滚动必须让所有li左浮动 */
+#Marquee_x ul li div{ float:left;line-height:25px; width:200px; overflow:hidden}
+#Marquee_x ul li div img{ border:1px solid #DADADA; width:200px; height:200px; display:block}
+#Marquee_x ul li div span{ display:block; text-align:center}
+#n{margin:10px auto; width:920px; border:1px solid #CCC;font-size:12px; line-height:30px;}
+#n a{ padding:0 4px; color:#333}
+
+
+.about_con {
+    padding: 10px 10px;
+    background: #EBE7D7;
+}
+.about p {
+    margin: 6px 0px;
+    background: #F8F8F8;
+    padding: 6px;
+    border: 1px dashed #CCCCCC;
+}
+span.a1 {
+    font-size: 14px;
+    color: #333333;
+    font-weight: bold;
+}
+span.b1 {
+    font-size: 14px;
+    color: #333333;
+    font-weight: 500;
+}
+
+
+
+h3.s2 {
+    height: 25px;
+    padding-left: 20px;
+    padding-top: 5px;
+    background: #D5C794;
+    font-size: 14px;
+    font-weight: 900;
+    border-bottom: 2px solid #526B37;
+}
+span.s2 {
+    display: block;
+    width: 120px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    padding: 0px 6px;
+    background: #526B37;
+    color: #FFFFFF;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.list_box {
+    margin-top: 10px;
+}
+.list_con ul {
+    background: #fff;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #ccc;
+}
+ul li.news {
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    padding-left: 15px;
+    background: url(../img//new.gif) no-repeat scroll 1px 10px;
+    font-size: 12px;
+}
+ul li.news a:link {
+    color: #333333;
+    text-decoration: none;
+} 

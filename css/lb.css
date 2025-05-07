@@ -1,0 +1,114 @@
+@media  screen and (min-width:601px){
+div.lunbo { width:980px;; height:360px; margin:0 auto; 
+	font:normal 62.5%/1.5 Helvetica, Arial, sans-serif;
+	letter-spacing:0;
+	color:#434343;
+	background:#efefef url(../img/background.png) repeat top center;
+	position:relative;
+	text-shadow:0 1px 0 rgba(255,255,255,.8);
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+.lunbo #container {
+	width:980px;;
+	margin:0 auto;
+	position:relative;
+	z-index:0;
+}
+
+.lunbo #example {
+	width:980px;;
+	height:360px;
+	position:relative;
+}
+
+.lunbo #ribbon {
+	position:absolute;
+	top:-3px;
+	left:-15px;
+	z-index:500;
+}
+
+.lunbo #frame {
+	position:absolute;
+	z-index:0;
+	width:739px;
+	height:341px;
+	top:-3px;
+	left:-80px;
+}
+
+.lunbo #slides {
+	position:absolute;
+	z-index:100;
+}
+
+.lunbo #slides .next,#slides .prev {
+	position:absolute;
+	top:150px;
+	left:5px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+.lunbo .slides_container {
+	width:980px;;
+	height:360px;
+	overflow:hidden;
+	position:relative;
+}
+
+.lunbo #slides .next {
+	left:950px;
+}
+
+.lunbo .pagination {position:absolute; right:200px; top:320px;width:100px; z-index:99999
+}
+
+.lunbo .pagination li {
+	float:left; margin-left:5px;
+}
+
+.lunbo .pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.lunbo .pagination li.current a {
+	background-position:0 -12px;
+}
+
+.lunbo #footer {
+	text-align:center;
+	width:900px;
+	margin-top:9px;
+	padding:4.5px 0 18px;
+	border-top:1px solid #dfdfdf;
+}
+
+.lunbo #footer p {
+	margin:4.5px 0;
+	font-size:1.0em;
+}
+
+.lunbo a:link,.lunbo a:visited {
+	color:#599100;
+	text-decoration:none;
+}
+
+.lunbo a:hover,.lunbo a:active {
+	color:#599100;
+	text-decoration:underline;
+}
+}
+
+@media screen and (max-width: 600px){
+.lunbo{ display:none}
+} 
